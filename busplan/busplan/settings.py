@@ -82,6 +82,7 @@ DATABASES = {
         'NAME': 'noah',
         'USER': 'adminQBEYVuu',
         'PASSWORD': 'j4eIsaRWf3vS',
+        'HOST': '127.8.109.130',
     }
 }
 
