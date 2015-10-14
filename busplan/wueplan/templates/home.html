@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block title %}Times{% endblock title %}
+{% block content %}
+<h2>Naechste Busfahrten</h2>
+<ul>
+{% for time in times_list %}
+  <li>{{ time }}</li>
+{% endfor %}
+</ul>
+{% endblock content %}

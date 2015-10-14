@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+{% block title %}Bus Selection{% endblock title %}
+{% block content %}
+  <form action="/wueplan/search/" method="post">{% csrf_token %}
+    <input type="text" name="line" />
+    <input type="text" name="station" />
+    <input type="Submit" value="Suchen" />
+  </form>
+{% endblock content %}
+
+{% block list %}
+  {% if times_list %}
+  <h2>Busfahrten:</h2>
+    {% for time in times_list %}
+      <li>{{ time }}</li>
+    {% endfor %}
+  {% endif %}
+{% endblock list %}

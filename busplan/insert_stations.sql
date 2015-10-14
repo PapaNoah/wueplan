@@ -1,0 +1,16 @@
+INSERT INTO wueplan_station (name) VALUES ("Busbahnhof");
+INSERT INTO wueplan_station (name) VALUES ("Barbarossaplatz");
+INSERT INTO wueplan_station (name) VALUES ("Mainfranken Theater");
+INSERT INTO wueplan_station (name) VALUES ("Annastrasse");
+INSERT INTO wueplan_station (name) VALUES ("Greisingstrasse");
+INSERT INTO wueplan_station (name) VALUES ("Letzter Hieb");
+INSERT INTO wueplan_station (name) VALUES ("Zollhaus Galgenberg");
+INSERT INTO wueplan_station (name) VALUES ("Nopitschstrasse");
+INSERT INTO wueplan_station (name) VALUES ("Albert-Hoffa-Strasse");
+INSERT INTO wueplan_station (name) VALUES ("Philosophisches Institut");
+INSERT INTO wueplan_station (name) VALUES ("Am Hubland");
+INSERT INTO wueplan_station (name) VALUES ("Mathematisches Institut");
+INSERT INTO wueplan_station (name) VALUES ("Gerbrunn Sandbuehl");
+INSERT INTO wueplan_station (name) VALUES ("Gerbrunn Rathaus");
+INSERT INTO wueplan_station (name) VALUES ("Gerbrunn Am Happach");
+INSERT INTO wueplan_station (name) VALUES ("Paul-Ehrlich-Strasse");
